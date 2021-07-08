@@ -8,11 +8,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var human1 = Human("太郎", 20)
+        var human1 = Human("太郎", 20, "釣り")
 
         human1.say()
 
-        var human2 = Human("花子", 18)
+        var human2 = Human("花子", 19, "キャンプ")
 
         human2. think()
     }
